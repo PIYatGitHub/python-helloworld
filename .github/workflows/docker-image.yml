@@ -13,4 +13,4 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - name: Build the Docker image
-        run: docker build . --file Dockerfile --tag $(latest)
+        run: docker build . --file Dockerfile --tag piyatdockerhub/python-helloworld:v1.0.0
